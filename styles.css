@@ -32,7 +32,9 @@ h2 {
 }
 
 .threevert {
+  height: 34%;
 }
+
 
 .threehoriz {
   width: 33.3%;
@@ -76,7 +78,7 @@ h2 {
 }
 
 .lightblue {
-  background-color: lightblue;
+  background-color: #add8e6;
 }
 
 .purple {
@@ -91,18 +93,46 @@ h2 {
   background-color: #000;
 }
 
+.red{
+  background-color: #e10017;
+}
+
+
+/* q1 */
+.light-blue {
+  background-color: #add8e6;
+  
+}
+/* .red.threevert {
+  background-color: #e10017;
+  
+} */
+#white {
+  background-color: white;
+  
+}
+
 /* BEGIN QUESTION 2 */
 
 .thailand-red {
   /* TODO */
+  background-color: #B5002D;
+  width: 500px;
+  height: 16.66% 
 }
 
 .thailand-white {
   /* TODO */
+  background-color: white;
+  width: 500px;
+  height: 16.66% 
 }
 
 .thailand-blue {
   /* TODO */
+  background-color: #2E2A4C;
+  width: 500px;
+  height: 34% 
 }
 
 /* END QUESTION 2 */
@@ -130,11 +160,23 @@ h2 {
 
 .mexico-img {
   /* TODO */
+  background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Coat_of_arms_of_Mexico.svg/245px-Coat_of_arms_of_Mexico.svg.png") center no-repeat white;
+  background-size:75%;
+  
 }
 
 .mexico-red {
   background-color: #ce1126;
 }
+
+.label {
+  color: blue;
+}
+.label:hover {
+  color: red;
+  font-size: x-large;
+}
+
 
 /* QUESTION 6 */
 .margin-container {
@@ -150,11 +192,13 @@ h2 {
 .flag1 {
   background-color: red;
   /* TODO */
+  margin-right: 5px;
 }
 
 .flag2 {
   background-color: blue;
   /* TODO */
+  margin-left: 5px;
 }
 /* For padding practice */
 .padding-container {
@@ -162,4 +206,5 @@ h2 {
   background-color: lightblue;
   background-clip: content-box, padding-box;
   /* TODO */
+  padding: 60px;
 }
